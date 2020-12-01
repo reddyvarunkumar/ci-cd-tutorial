@@ -33,5 +33,4 @@ jobs:
  # Runs a set of commands using the runners shell
       - name: 'Convert Metadata'
         run: sfdx force:source:convert --rootdir=force-app --outputdir=convert
-      - name: 'Run Test on Metadata'
-        run: sfdx force:mdapi:deploy --deploydir=convert --testlevel=RunLocalTests --checkonly -u hub-org
+ 
